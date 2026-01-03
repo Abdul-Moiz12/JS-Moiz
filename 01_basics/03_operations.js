@@ -38,21 +38,42 @@ tasbeehCounter--
 
 // console.log("2" == 2)
 // console.log("2" === 2)
-// double equal mai data type alh hogi cobert lkrdega but triple equality 
-// mai nh krega data type alh hogi tou fasle dedega
+// double equal mai data type hogi tou convert krdega but triple equality 
+// mai nh krega data type hogi tou false dedega
 
 // 
 const animals = ["hen","cow","goat"]
 const obj = {
     name: "ali",
-    id: 65082
+    // id: 65082
 }
 
-const val = function()
-{console.log("Hello ")}
+// const val = function()
+// {console.log("Hello ")}
 
-let currentAcc = null
-console.log(typeof currentAcc)
+// let currentAcc = null
+// console.log(typeof currentAcc)
+
+let firstName = "Moiz"
+let lastName = firstName
+anothername = "Chhipa"
+// console.log(lastName)
+// console.log(anothername)
+
+
+let userOne = {
+    Name: "Moiz"
+    ,Id: 65082
+}
+userTwo = userOne
+userTwo.Id = 11253
+
+console.log(userOne.Id)
+console.log(userTwo.Id)
+
+// stack mai copy milta hai
+// or heap mai refrence milta hai
+
 
 
 
